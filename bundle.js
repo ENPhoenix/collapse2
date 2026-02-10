@@ -1,0 +1,1 @@
+(()=>{"use strict";class t{constructor(t){this.container=t,this.button=t.querySelector(".collapse-btn"),this.content=t.querySelector(".collapse-content"),this.button.addEventListener("click",()=>this.toggle())}toggle(){this.content.classList.toggle("open")}}document.addEventListener("DOMContentLoaded",()=>{const e=document.querySelector(".collapse-container");e&&new t(e)})})();
